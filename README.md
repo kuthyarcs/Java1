@@ -18,3 +18,6 @@ java -cp bin/ K3 8 4
 
 javac -d bin K4.java   
 java -cp bin/ K4 8   
+
+javac -d bin K5.java
+java -cp bin/ K5 5  -  Factorial of 5 is 120   
