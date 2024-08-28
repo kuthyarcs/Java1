@@ -5,7 +5,7 @@
 >javac K2.java
 >java K2
 
->mkdir bin - to create separate directory for .class files
+>mkdir bin - to create separate directory for .class files   
 >javac -d bin K1.java
 >java -cp bin/ K1
 
