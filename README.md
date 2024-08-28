@@ -26,12 +26,15 @@ java -cp bin/ K5 5  -  Factorial of 5 is 120
   String s1="ABCDEFG";
 	String s2="";
 	s2=s1.substring(0,1);
-	System.out.println(s2); ```
+	System.out.println(s2);
+```   
 
-```for(int i=0;i<len1;i++){
+```
+for(int i=0;i<len1;i++){
 	    s2=s2+s1.charAt(len1-1-i);
 	    System.out.println(s2);
-	}```
+	}
+```
 
 
 
