@@ -8,4 +8,8 @@ public class K3{
 }
 
 // The name of the file should be same as the name of the public class. So, this file should be K3.java
-// Every Java program requires a main method.  This main method is written inside the public class.  main() method is public because it needs to be accessed from anywhere. main() method is static because the JVM can call it without having to create an instance. main() method is void because it does not return anything. main() method takes a string array as a parameter. ie. it can take 1 string, 2 strings, 3 strings...or any number of strings.  In this example, we are providing 2 string parameters
+// Every Java program requires a main method - public, static, void
+// Try >java K3 8 4
+// Try >java K3 8
+// Try >java K3 
+// If insufficient parameters provided, may throw Exception
