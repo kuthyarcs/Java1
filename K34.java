@@ -8,7 +8,7 @@ public class K34{
 }
 //javac -d bin K34.java
 //java -cp bin K34
-// 
+// Modulus
 //Java-HerbertSchildt-Chap3
 
 
