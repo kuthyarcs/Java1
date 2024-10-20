@@ -13,8 +13,8 @@ public class K110 {
 	public static void main(String[] args) {
 		for(int i=0;i<8;i++) {
 			MultiThreadingTwo mt1= new MultiThreadingTwo();
-			//mt1.start();
-			mt1.run();
+			Thread t1 = new Thread(mt1);
+			t1.start();
 		}
 
 	}
